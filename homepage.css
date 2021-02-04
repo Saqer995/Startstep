@@ -1,0 +1,180 @@
+/* my fonts Library */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* For Rsponsivness */
+@media screen and (min-width: 40em){
+.col-group{
+  overflow: hidden;
+}
+.col-group > div{
+  float:left;
+  width:30%;
+}
+}
+/* End of responsivess algorithem */
+
+/* Calling the body */
+body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin:0;
+  padding:0;
+}
+h1{
+font-weight: 300;
+}
+p{
+font-weight: 200;
+}
+header{
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background: skyblue;
+}
+header ul{
+  display: inline;
+  color: brown;
+  padding: 5px;
+}
+header ul a{
+  display: inline;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px 5px 10px 5px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+}
+header ul a:hover{
+  background-color: #7166f2;
+  border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  cursor: grab;
+}
+
+section{
+  top: 0;
+  left:0;
+  right:0;
+  height: 100%;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 1px dotted rgb(74,143,170);
+}
+section .images{
+  text-align: center;
+}
+.images img{
+  width: auto;
+}
+.wrap{
+  max-width: 750px;
+  margin: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* section 1 */
+#hello{
+ padding-top: 100px;
+ text-shadow: 1px 1px 1px #6bf266;
+ margin-left: 40px;
+ border-bottom: 0px dotted #d5d5d5;
+}
+#hello h1{
+ font-weight: 400px;
+}
+
+#hello p{
+ font-weight: 400px;
+ width: 50%;
+}
+/* section 2 */
+#project{
+  /* code */
+}
+/* section 3 */
+#skills{
+ min-height: 500px;
+}
+#skills ul{
+ text-align: left;
+ margin-left: -40px;
+}
+#skills li{
+  font-size: 80px;
+  padding: 20px;
+  list-style: none;
+  color: #7166f2;
+  text-align: center;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+}
+#skills li:hover{
+  color: #66f2f2;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+}
+.col-group .makePointer {
+  cursor: pointer;  
+}
+/* section 4 */
+#contactMe{
+  display: inline;
+  margin: 2em auto;
+  margin-bottom: 2em;
+  width: 150px;
+  height: 150px;
+}
+#contactMe ul{
+  text-align: center;
+  margin-left: -40px;
+}
+#contactMe ul li{
+  font-size: 50px;
+  list-style: none;
+  display: inline;
+  color: #cccccc;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+}
+#contactMe ul li:hover{
+  color: #efefef;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+}
+/*footer*/
+#footer{
+ background-color: #cccccc;
+ color: black;
+ text-align: center;
+}
+
+@-webkit-keyframes Jumpy{
+ from{-webkit-transform: translate(0,0px);}
+ 50%{-webkit-transform: translate(0,0px);}
+ to{-webkit-transform: translate(0,0px);}
+}
